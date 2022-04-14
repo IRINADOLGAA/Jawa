@@ -16,7 +16,8 @@ public class HomeWorkApp {
             }
             public static void checkSumSign () {
                   // объявляем и инициализируем две переменные а и b
-                  int a = -300, b = -120;
+                  int a = -300;
+                  int b = -120;
                   if ((a+b) >= 0) {
                         System.out.println("Cумма положительная");
                   } else {
@@ -38,7 +39,8 @@ public class HomeWorkApp {
 
             public static void compareNumber () {
                   // объявляем и инициализируем две переменные a и b
-                  int a = 1, b = 1000;
+                  int a = 1;
+                  int b = 1000;
                   if (a >= b) {
                         System.out.println("a>=b");
                   }
